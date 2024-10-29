@@ -34,3 +34,7 @@ src/servers/rust-server/target
 
 #ignore python __pycache__ directory
 src/servers/python-server/__pycache__
+
+# Ignore build output directories
+/bin/
+/obj/
