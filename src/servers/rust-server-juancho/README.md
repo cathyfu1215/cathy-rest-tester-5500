@@ -33,7 +33,7 @@
 
 1. Clone this repository to your local machine or create a new directory for the server code.
    ```sh
-   cd src/servers/rust-server
+   cd src/servers/rust-server/juancho
    ```
 1. Save the server code provided into a file named `main.rs` inside the project directory.
 
