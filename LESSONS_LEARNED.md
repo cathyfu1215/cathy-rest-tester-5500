@@ -30,10 +30,10 @@ This document captures lessons learned from using different programming language
 ## Ruby
 
 ### What Did We Learn About This Language?
-- Placeholder for insights or observations made while using this language.
+- It is quite smooth! 
 
 ### Interesting Problems Encountered
-- Placeholder for any challenges, issues, or interesting bugs encountered.
+- installing gems and troubleshooting is fun!
 
 ## C#
 
