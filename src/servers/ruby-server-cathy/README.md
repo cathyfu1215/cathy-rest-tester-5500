@@ -78,6 +78,15 @@ when you are ready, run
 ruby test_server.rb
 ```
 
+## Run the frontend
+
+open a new terminal, navigate to the root of this whole repo
+```
+cd cathy-rest-tester-5500
+npm install
+npm run dev
+```
+
 ## Troubleshooting
 
 If you see "Sinatra could not start, the "rackup" gem was not found!",

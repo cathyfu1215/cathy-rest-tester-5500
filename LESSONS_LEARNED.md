@@ -38,10 +38,11 @@ This document captures lessons learned from using different programming language
 ## C#
 
 ### What Did We Learn About This Language?
-- Placeholder for insights or observations made while using this language.
+- I learned about dotnet and all the commands.
 
 ### Interesting Problems Encountered
-- Placeholder for any challenges, issues, or interesting bugs encountered.
+- It seems that the tests should be inplemented to a new project, otherwise there will be two entrance of the program?
+- the bin folder should be git ignored!
 
 ## General Reflections
 
