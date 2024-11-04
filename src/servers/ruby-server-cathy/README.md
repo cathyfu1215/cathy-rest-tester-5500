@@ -65,7 +65,7 @@ ruby server.rb
 
 Note: we will be using port 5003 and this is also indicated in the frontend.
 
-## Run the tests
+## Run the tests (This step is optional)
 
 Make sure you have installed all the gems using 
 ```
