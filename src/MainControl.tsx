@@ -295,7 +295,7 @@ const MainControl: React.FC = () => {
                         <Stack direction="row" alignItems="center">
                             <FormControlLabel value="endpoint5" control={<Radio />} label="Go" />
                             <TextField
-                                label="C# Port"
+                                label="Go Port"
                                 value={endpoint5}
                                 onChange={(e) => setEndpoint5(e.target.value)}
                                 fullWidth

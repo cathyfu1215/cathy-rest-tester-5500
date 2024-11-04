@@ -20,7 +20,6 @@ cd go-server-cathy
 ```
 Go will take care of dependencies when you run the project.
 ```
-go build
 go run main.go
 ```
 

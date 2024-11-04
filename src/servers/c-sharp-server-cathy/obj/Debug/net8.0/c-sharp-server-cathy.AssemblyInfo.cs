@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("c-sharp-server-cathy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4065d7202857df68d0344f02f15623535105e54b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e3a9fc921bec4a300c9ef7eb03ff7287b1244d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("c-sharp-server-cathy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("c-sharp-server-cathy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
