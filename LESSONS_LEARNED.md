@@ -44,6 +44,14 @@ This document captures lessons learned from using different programming language
 - It seems that the tests should be inplemented to a new project, otherwise there will be two entrance of the program?
 - the bin folder should be git ignored!
 
+## Go#
+
+### What Did We Learn About This Language?
+- I learned about gin framework
+
+### Interesting Problems Encountered
+- It is very convenient to use Go!
+
 ## General Reflections
 
 ### Key Takeaways

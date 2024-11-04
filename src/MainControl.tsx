@@ -10,8 +10,9 @@ const MainControl: React.FC = () => {
     // State variables to manage different endpoints and user data
     const [endpoint1, setEndpoint1] = useState('5001');
     const [endpoint2, setEndpoint2] = useState('5002');
-    const [endpoint3, setEndpoint3] = useState('5003'); // CHANGEME to reflect the port number of the third endpoint
-    const [endpoint4, setEndpoint4] = useState('5004'); // CHANGEME to reflect the port number of the fourth endpoint
+    const [endpoint3, setEndpoint3] = useState('5003'); 
+    const [endpoint4, setEndpoint4] = useState('5004'); 
+    const [endpoint5, setEndpoint5] = useState('5005'); 
     const [selectedEndpoint, setSelectedEndpoint] = useState('endpoint1');
     const [jsonResult, setJsonResult] = useState('');
     const [userId, setUserId] = useState('');
@@ -58,6 +59,20 @@ const MainControl: React.FC = () => {
                     return '';
                 }
                 port = endpoint4;
+                break;
+            case 'endpoint4':
+                if (!endpoint4) {
+                    alert('Please provide an endpoint');
+                    return '';
+                }
+                port = endpoint4;
+                break;
+            case 'endpoint5':
+                if (!endpoint5) {
+                    alert('Please provide an endpoint');
+                    return '';
+                }
+                port = endpoint5;
                 break;
             default:
                 alert('Please provide an endpoint');
@@ -273,6 +288,16 @@ const MainControl: React.FC = () => {
                                 label="C# Port"
                                 value={endpoint4}
                                 onChange={(e) => setEndpoint4(e.target.value)}
+                                fullWidth
+                                margin="normal"
+                            />
+                        </Stack>
+                        <Stack direction="row" alignItems="center">
+                            <FormControlLabel value="endpoint5" control={<Radio />} label="Go" />
+                            <TextField
+                                label="C# Port"
+                                value={endpoint5}
+                                onChange={(e) => setEndpoint5(e.target.value)}
                                 fullWidth
                                 margin="normal"
                             />
